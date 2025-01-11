@@ -1,0 +1,39 @@
+body {
+    color: white;
+    background-color: gray;
+}
+main{
+    margin-left: 25%;
+    margin-right: 25%;
+    padding: 20px;
+}
+.clock{
+    border-radius: 50%;
+    height: 400px;
+    width: 400px;
+    border: 5px solid green;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.clockDivTop{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    margin-top: 3%;
+}
+.timer{
+    font-size: 6vw;
+}
+.buttons{
+    width: 20%;
+}
+.functionalityButtons{
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 20px;
+}
